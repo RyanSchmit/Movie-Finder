@@ -1,0 +1,43 @@
+body {
+    background-image: url("https://www.gannett-cdn.com/presto/2019/04/02/PLOU/febba588-ff5b-4277-b600-c4c76252c317-MotleyFool-TMOT-1c387926-06ba00e6.jpg?crop=2094,1185,x0,y0&width=3200&height=1680&fit=bounds");
+    background-size: 90%;
+   }	
+
+   .slider {
+ -webkit-appearance: none;
+ width: 20%;
+ height: 15px;
+ border-radius: 5px;   
+ background: #d3d3d3;
+ outline: none;
+ opacity: 0.7;
+ -webkit-transition: .2s;
+ transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+ -webkit-appearance: none;
+ appearance: none;
+ width: 25px;
+ height: 25px;
+ border-radius: 50%; 
+ background: #4CAF50;
+ cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+ width: 25px;
+ height: 25px;
+ border-radius: 50%;
+ background: #4CAF50;
+ cursor: pointer;
+}
+
+.head {
+   color: orange;
+   text-align: center;
+}
+
+h2 {
+   color: white;
+}
